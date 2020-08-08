@@ -1,4 +1,5 @@
 #page-landing {
+  overflow-x: hidden;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -11,42 +12,42 @@
 
 .locationImg {
   width: 100%;
-  height: 30rem;
+  height: 28rem;
 
 }
 
 .title-desc {
   text-align: center;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2rem;
 }
 
 .title-desc h1 {
   font-weight: 500;
-  font-size: 5.4rem;
-  line-height: 4.6rem;
+  font-size: 4rem;
+  line-height: 4rem;
   margin-bottom: 0.8rem;
   font-family: 'Lemonada', cursive;
 }
 
 .title-desc h2 {
   font-weight: 500;
-  font-size: 2.4rem;
-  line-height: 4.6rem;
-  margin-bottom: 3.8rem;
+  font-size: 1.8rem;
+  line-height: 4rem;
+  margin-bottom: 3rem;
 }
 
 .buttons-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 3.2rem 0;
+  margin: 3rem 0;
 }
 
 .buttons-container a {
-  width: 25rem;
-  height: 8.4rem;
-  border-radius: 10.8rem;
-  margin-right: 1.6rem;
+  width: 20rem;
+  height: 7rem;
+  border-radius: 10rem;
+  margin-right: 1rem;
   font: 700 2.0rem;
   background: var(--color-primary);
   display: flex;
@@ -93,6 +94,14 @@
 
   .buttons-container {
     grid-area: buttons;
+  }
+
+  .title-desc h1 {
+    font-size: 6rem;
+  }
+  
+  .title-desc h2 {
+    font-size: 2.8rem;
   }
 
 }
