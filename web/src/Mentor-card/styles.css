@@ -1,0 +1,49 @@
+#mentor-card {
+  max-width: 40rem;
+  border-radius: 1rem;
+  border: 0.5px solid rgba(206, 206, 206, 0.5);
+  margin: 1rem;
+  background: rgb(250, 250, 250);
+}
+
+#mentor-card .bio {
+  color: var(--color-text-title-complement2);
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.mentor-info {
+  display: flex;
+  padding: 2rem 1rem 1rem 2rem;
+}
+
+.mentor-info img {
+  border-radius: 50%;
+  width: 7rem;
+}
+
+.text-info {
+  padding: 1rem 2rem;
+}
+
+.text-info h3 {
+  color: var(--color-text-title);
+}
+
+.text-info p{
+  color: var(--color-text-title-complement);
+  font-size: 1.3rem;
+}
+
+.mentor-contact {
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  justify-content: space-around;
+  border-top: 0.5px solid rgba(206, 206, 206, 0.5);
+  padding: 1rem;
+}
+
+.mentor-contact:first-child {
+  border-right: 0.5px solid rgba(206, 206, 206, 0.5);
+}
