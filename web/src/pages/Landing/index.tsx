@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import LocationImg from '../../assets/location.svg';
 import "./styles.css";
 
@@ -12,8 +13,8 @@ const Landing = () => {
         </div>
           <img className="locationImg" src={LocationImg} alt="logo" />
         <div className="buttons-container">
-          <a className="find-mentor">Find a Mentor</a>
-          <a className="be-mentor">Be a Mentor</a>
+          <Link to="/mentors" className="find-mentor">Find a Mentor</Link>
+          <Link to="/register" className="be-mentor">Be a Mentor</Link>
         </div>
       </div>
     </div>
