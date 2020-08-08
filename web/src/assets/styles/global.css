@@ -1,6 +1,20 @@
 :root {
   font-size: 60%;
+
   --color-secondary-lighter: #6fe2a3;
+  --color-secondary: #5cdb95;
+  --color-secondary-darker: #4ab379;
+  --color-primary-lighter: #f7bb4c;
+  --color-primary: #f6af2b;
+  --color-primary-darker: #dd9d26;
+  --color-text-title: #2b2b2b;
+  --color-text-title-complement: #808080;
+  --color-text-title-complement2: #adadad;
+  --color-background: rgb(235, 235, 235);
+}
+
+
+  /* --color-secondary-lighter: #6fe2a3;
   --color-secondary: #5cdb95;
   --color-secondary-darker: #4ab379;
   --color-primary-lighter: #134a81;
@@ -9,7 +23,7 @@
   --color-text-title: #edf5e1;
   --color-text-title-complement: #dae0d1;
   --color-background: rgb(235, 235, 235);
-}
+} */
 
 * {
   margin: 0;
