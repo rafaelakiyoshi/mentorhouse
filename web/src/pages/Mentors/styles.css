@@ -1,0 +1,53 @@
+#page-mentors-list {
+  width: 100vw;
+  height: 100vh;
+}
+
+.page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5em;
+  background: rgb(246, 175, 43);
+  background: -moz-linear-gradient(
+    68deg,
+    rgba(246, 175, 43, 1) 48%,
+    rgba(242, 185, 79, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    68deg,
+    rgba(246, 175, 43, 1) 48%,
+    rgba(242, 185, 79, 1) 100%
+  );
+  background: linear-gradient(
+    68deg,
+    rgba(246, 175, 43, 1) 48%,
+    rgba(242, 185, 79, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6af2b",endColorstr="#f2b94f",GradientType=1);
+}
+
+.page-header  h1 {
+  color: rgb(250, 250, 250);
+  text-align: center;
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 4.6rem;
+  margin-bottom: 0.8rem;
+  font-family: 'Lemonada', cursive;
+}
+
+.mentors-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+@media (min-width: 1000px) {
+  #page-mentors-list {
+    min-width: -webkit-fill-available;
+  }
+}
