@@ -45,8 +45,8 @@ body {
   justify-content: center;
 }
 
-body, input, button, textarea {
-  font: 500 1.6rem Poppins;
+body, input, button, textarea, span {
+  font-family:  Poppins;
 }
 
 .container {
