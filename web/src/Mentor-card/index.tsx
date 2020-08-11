@@ -10,7 +10,7 @@ interface MentorCardProps {
   contact: string
 }
 
-const MentorCard = (props: MentorCardProps) => {
+const MentorCard: React.FC<MentorCardProps> = props => {
   const { name, description, bio, photo, price, contact } = props;
   return (
     <div id="mentor-card" >
