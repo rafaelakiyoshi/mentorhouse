@@ -1,0 +1,12 @@
+.ant-upload.ant-upload-select-picture-card {
+  border-radius: 50%;
+  margin: 0;
+}
+
+body > div:nth-child(7) > div > div.ant-modal-wrap.antd-img-crop-modal > div > div.ant-modal-content > div.ant-modal-body > div.reactEasyCrop_Container.antd-img-crop-container > div {
+  border-radius: 50%;
+}
+
+.ant-upload.ant-upload-select-picture-card > .ant-upload {
+  padding: 0;
+}
