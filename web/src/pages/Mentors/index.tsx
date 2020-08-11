@@ -1,15 +1,12 @@
 import React from 'react';
+import PageHeader from '../../components/Page-Header';
 import './styles.css';
 import MentorCard from '../../Mentor-card';
 
 const Mentors = () => {
   return (
     <div id="page-mentors-list" className="container">
-      <header className="page-header">
-        <div className="top-bar-header">
-          <h1>MentorHouse</h1>
-        </div>
-      </header>
+      <PageHeader />
       <div className="mentors-cards">
         <MentorCard 
           name="Rafael Akiyoshi"
